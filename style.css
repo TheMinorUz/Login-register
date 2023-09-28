@@ -1,0 +1,144 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main
+{
+    left: 500px;
+    top: 150px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    border-radius: 10px;
+    /* border: solid; */
+    box-shadow: 2px 2px 2px 2px rgba(207, 207, 207, 0.3);
+}
+.register
+{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    /* border: solid blue; */
+    display: grid;
+    grid-template-columns: repeat(1,1);
+}
+.register > input
+{
+    width: 250px;
+    margin: 0 auto;
+    height: 30px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 15px;
+    background-color:rgb(207, 207, 207);
+}
+.register .privacy
+{
+    margin: 0 auto;
+    /* display: flex; */
+    align-items: center;
+    grid-template-columns: repeat(2,1);
+    gap: 10px;
+}
+.register .privacy
+{
+    outline: none;
+}
+.register button
+{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    font-style: bold;
+    letter-spacing: 1px;
+}
+.main .blocks
+{
+    display: flex;
+    gap: 30px;
+    align-items:end;
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    /* border: solid; */
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
+}
+.blocks h2
+{
+    transition-duration:1s;
+}
+.blocks::before
+{
+    border-bottom: 1px solid;
+
+}
+.blocks::after
+{
+    border: none;
+}
+
+.login
+{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(1,1);
+}
+.login > input
+{
+    width: 250px;
+    margin: 0 auto;
+    height: 30px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 15px;
+    background-color:rgb(207, 207, 207);
+}
+.login .politics
+{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.login .politics label > a
+{
+    margin-left: 10px;
+}
+.login > button
+{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    font-style: bold;
+    letter-spacing: 1px;
+}
+
+/* .togle{
+    border-bottom: 3px solid blue;
+    cursor: pointer;
+} */
